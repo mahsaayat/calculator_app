@@ -1,0 +1,34 @@
+name: calculator_app
+description:    ساخته شده توسط کانون آگهی و تبلیغات افق روشن
+publish_to: 'none' 
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.3.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  math_expressions: ^2.2.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_launcher_icons: ^0.14.3
+
+flutter_icons:
+  android: true
+  ios: true
+  image_path: "assets/icon/app_icon.png"
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/icon/
+  fonts:
+  - family: Vazir
+    fonts:
+      - asset: assets/fonts/Vazir-Regular.ttf
+
